@@ -1,0 +1,19 @@
+# Sui build artifacts
+build/
+*.trace
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Node modules (如果之后添加npm包)
+node_modules/
+
+# 环境变量
+.env
+.env.local
+
+# Mac系统文件
+.DS_Store

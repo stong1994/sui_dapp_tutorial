@@ -1,0 +1,22 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# 顶层配置文件
+root = true
+
+# Move文件配置
+[*.move]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Markdown文件配置
+[*.md]
+trim_trailing_whitespace = false
+
+# TOML文件配置
+[*.toml]
+indent_style = space
+indent_size = 4

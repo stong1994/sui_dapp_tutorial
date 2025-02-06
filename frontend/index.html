@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sui DApp Tutorial</title>
+    <!-- TODO(Day 2): Sui SDK 引入问题
+    1. 当前使用 CDN 方式引入 SDK 可能导致兼容性问题
+    2. 需要考虑迁移到 npm 包管理方式
+    3. 可能需要添加构建工具（如 Vite）来处理模块依赖
+    4. 需要处理 window.sui 未定义的边缘情况
+    -->
     <script src="https://unpkg.com/@mysten/sui@1.21.1/dist/index.min.js"></script>
     <style>
         body {
